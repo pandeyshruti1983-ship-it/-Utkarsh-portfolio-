@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: "Baloo Tamma 2", cursive;
+  background: #fff;
+}
+
+/* Full width navbar */
+.navigation {
+  background: #222;
+  border-top: 2px solid #f2a900;
+  padding: 12px 40px;
+}
+
+/* Logo */
+.brand-logo {
+  height: 100px;
+  width: 80px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Links */
+.navigation-link {
+  text-decoration: wavy;
+  font-size: 20px;
+  font-weight: 80;
+  color: #fff ;
+}
+
+.navigation-link:hover {
+  color: #f2a900 ;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navigation {
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .navigation-link {
+    display: block;
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+a{
+  margin: 10px;
+}
+}
+a{
+  margin: 10px;
+}
